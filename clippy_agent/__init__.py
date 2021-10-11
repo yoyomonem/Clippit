@@ -9,3 +9,8 @@ def speak_about(say):
 
 AUTHOR_FIRST_NAME = "Youssef"
 AUTHOR_LAST_NAME = "Nasr"
+Two = 2
+
+print("You've imported Clippy the agent.")
+print("There's one thing you must remember though, Clippy can help you in Microsoft Word!")
+print("Remember that quitting isn't that good.")
