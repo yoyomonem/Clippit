@@ -2,11 +2,9 @@ import $ from 'jquery'
 import Queue from './queue'
 import Animator from './animator'
 import Balloon from './balloon'
+import agent from './Clippy.JS'
 
-send_text() = System.out.println(); + function() {
-  send_text._internal() = send_text();
-}
-
-function agent() {
-  agent.speak = send_text();
+function assistant() {
+  let agent;
+  agent.speak = System.out.println("When all else fails, bind some paper together. My name is Clippy.");
 }
