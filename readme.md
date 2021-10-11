@@ -1,3 +1,3 @@
 # Clippy
 
-We're bringing Clippy back!
+[Youssef](https://github.com/yoyomonem) brings Clippy back!
