@@ -1,0 +1,94 @@
+# This is a basic workflow to help you get started with Actions
+
+name: Commits & Changes CI
+
+# Controls when the workflow will run
+on:
+  # Triggers the workflow on push or pull request events but only for the "master" branch
+  push:
+    branches: [ master ]
+  pull_request:
+    branches: [ master ]
+
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+jobs:
+  # This workflow contains a single job called "build-repo-action-customized"
+  build-repo-action-customized:
+    # The type of runner that the job will run on
+    runs-on: ubuntu-latest
+    # Steps represent a sequence of tasks that will be executed as part of the job
+    steps:
+      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+      - uses: actions/checkout@v2
+
+      # Runs a single command using the runners shell
+      - name: Run a one-line script
+        run: echo We are confirming a commit!
+
+      # Runs a set of commands using the runners shell
+      - name: Run a multi-line script
+        run: |
+          echo Add other actions to build,
+          echo test, and deploy your project.
+          echo This is why
+          echo we are confirming
+          echo a commit
+          echo automatically!
+          echo Forks not
+          echo included.
+      # Runs a Youssef Land script
+      - name: Run a Youssef Land script
+        run: echo Welcome to Youssef Land!
+      # Runs a full Youssef Land script
+      - name: Run a full Youssef Land script
+        run: |
+          echo Welcome to Youssef Land!
+          echo We are triggering a
+          echo commit confirmation
+          echo automatically for
+          echo being successful.
+          echo You can get it
+          echo if you are
+          echo requesting
+          echo a commit
+          echo and one of our
+          echo organizers will commit it once he will
+          echo make a good review and
+          echo the repo system will
+          echo automatically merge the
+          echo PR, then it will
+          echo be commited like
+          echo you always wanted to
+          echo be with!
+          echo Forks required to support
+          echo BUT not included.
+      # Runs a confirmation script
+      - name: Run a confirmation script
+        run: |
+          echo We are confirming a commit/change,
+          echo because it is unconfirmed.
+      # Runs a confirming script
+      - name: Run a confirming script
+        run: |
+          echo Confirming commit/change...
+          echo Commit/change confirmed!
+      # Runs a Make script
+      - name: Run a Make script
+        run: |
+          echo The-Youssef-Nasr-Company/Youssef-Land/Makefile: Permission denied.
+          echo Compilation finished successfully.
+      # Runs a C++ script
+      - name: Run a C++ script
+        run: |
+           echo You are commanded to be inside
+           echo Youssef Land.
+      # Runs a C script
+      - name: Run a C script
+        run: |
+           echo There are lots to
+           echo see! You should
+           echo explore Youssef
+           echo Land!
