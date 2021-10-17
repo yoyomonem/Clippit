@@ -8,4 +8,4 @@ Clippy is an virtual assistant, but you need a how-to. This is the how-to headin
 
 ### Step 1: Install Microsoft Office
 
-You need Microsoft Office to use Clippy, for example modern versions of Microsoft Office. That's 100% possible for Clippy to come..
+You need Microsoft Office to use Clippy, for example modern versions of Microsoft Office. That's 100% possible for Clippy to come.
