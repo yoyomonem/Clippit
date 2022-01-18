@@ -20,6 +20,6 @@ You need Microsoft Office to use Clippit, which is Office 97 to 2003. That's 100
 | Office 2007 | Windows XP-Vista | No
 | Office 2010 | Windows 7, but now is for Windows 10 | No
 | Office 2013 | Windows 8 and 8.1 | No
-| Office 2016 | __Recommended for Windows 10__ | No
+| Office 2016 | __Recommended for Windows 10__ (a Microsoft Office developer's serious sentence, that it's recommended for Windows 10) | No
 | Office 2019 | Windows 10 | No
 | Microsoft 365 | Windows 10-11 | No
